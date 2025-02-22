@@ -1,0 +1,39 @@
+{
+    "name": "phonghaw2/laravel-x-api-v2",
+    "description": "A small Laravel package for X API.",
+    "keywords": [
+        "phonghaw2",
+        "twitter",
+        "x-api",
+        "laravel"
+    ],
+    "homepage": "https://github.com/phonghaw2/laravel-x-api-v2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hà Quốc Phong",
+            "email": "phonghaw2@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phonghaw2\\X\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phonghaw2\\X\\XServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
